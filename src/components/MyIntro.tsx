@@ -75,10 +75,10 @@ export default function MyIntro() {
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full">
+        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10">
           <BsLinkedin />
         </a>
-        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full">
+        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10">
           <FaGithubSquare />
         </a>
       </motion.div>
