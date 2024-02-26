@@ -7,10 +7,17 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function MyIntro() {
+  const { ref } = useSectionInView("Home", 0.5);
+
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      id="home"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -51,7 +58,7 @@ export default function MyIntro() {
       >
         <span className="font-bold">Hello, I'm Bhawesh.</span> I am a{" "}
         <span className="font-bold">Software Developer</span> with{" "}
-        <span className="font-bold">1 year</span> of experience. I enjoy
+        <span className="font-bold">3+ years</span> of experience. I enjoy
         building <span className="italic">Softwares</span>.
       </motion.h1>
 
