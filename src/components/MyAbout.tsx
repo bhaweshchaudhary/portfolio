@@ -19,9 +19,9 @@ export default function MyAbout() {
     >
       <SectionHeading>about me</SectionHeading>
       <p className="mb-3">
-        👋 Hello there! I'm Bhawesh Chaudhary, a passionate software developer
-        with a love for turning ideas into reality through elegant and efficient
-        code.
+        👋 Hello there! I&apos;m Bhawesh Chaudhary, a passionate software
+        developer with a love for turning ideas into reality through elegant and
+        efficient code.
       </p>
       <p className="mb-3">
         💻 My journey in the world of programming began with a curiosity to
@@ -31,11 +31,11 @@ export default function MyAbout() {
       </p>
       <p className="mb-3">
         🚀 I specialize in Typescript, Nodejs, Reactjs, Expressjs, PostgreSQL,
-        Postman, CI/CD, and I'm always excited to explore new tools and
-        frameworks that push the boundaries of what's possible. Whether it's
-        crafting robust backend systems, developing intuitive user interfaces,
-        or optimizing algorithms for peak performance, I thrive on the
-        challenges that come with building software.
+        Postman, CI/CD, and I&apos;m always excited to explore new tools and
+        frameworks that push the boundaries of what&apos;s possible. Whether
+        it&apos;s crafting robust backend systems, developing intuitive user
+        interfaces, or optimizing algorithms for peak performance, I thrive on
+        the challenges that come with building software.
       </p>
       <p className="mb-3">
         🌐 In addition to my technical skills, I believe in the power of
@@ -47,15 +47,15 @@ export default function MyAbout() {
       <p className="mb-3">
         📚 Constant learning is at the core of my professional philosophy. The
         tech industry is dynamic, and staying up-to-date with the latest trends
-        and best practices is something I'm committed to. I am also passionate
-        about sharing knowledge and experiences with the developer community
-        through blog posts, workshops, and open-source contributions.
+        and best practices is something I&apos;m committed to. I am also
+        passionate about sharing knowledge and experiences with the developer
+        community through blog posts, workshops, and open-source contributions.
       </p>
       <p>
         🏆 My goal is not just to write code but to create software that makes a
-        positive impact. Whether it's streamlining processes, improving
-        efficiency, or providing delightful user experiences, I'm dedicated to
-        building solutions that matter.
+        positive impact. Whether it&apos;s streamlining processes, improving
+        efficiency, or providing delightful user experiences, I&apos;m dedicated
+        to building solutions that matter.
       </p>
     </motion.section>
   );
